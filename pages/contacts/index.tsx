@@ -27,37 +27,37 @@ function ContactsPage() {
 				name: 'Patrizio Randalson',
 				email: 'prandalson0@prlog.org',
 				image:
-					'https://ui-avatars.com/api/?name=Patrizio+Randalson&size=150&background=2563eb&color=fff',
+					'https://thispersonnotexist.org/downloadimage/Ac3RhdGljL21hbi9zZWVkNDYwMDUuanBlZw==',
 			},
 			{
 				name: 'Demetris Korb',
 				email: 'dkorb0@mit.edu',
 				image:
-					'https://ui-avatars.com/api/?name=Demetris+Korb&size=150&background=16a34a&color=fff',
+					'https://thispersonnotexist.org/downloadimage/Ac3RhdGljL21hbi9zZWVkMTY0NDkuanBlZw==',
 			},
 			{
 				name: 'Riley Wimlet',
 				email: 'rwimlet2@spiegel.de',
 				image:
-					'https://ui-avatars.com/api/?name=Riley+Wimlet&size=150&background=dc2626&color=fff',
+					'https://thispersonnotexist.org/downloadimage/Ac3RhdGljL21hbi9zZWVkMzA5ODcuanBlZw==',
 			},
 			{
 				name: 'Ruperto Catterson',
 				email: 'rcatterson3@sitemeter.com',
 				image:
-					'https://ui-avatars.com/api/?name=Ruperto+Catterson&size=150&background=9333ea&color=fff',
+					'https://thispersonnotexist.org/downloadimage/Ac3RhdGljL21hbi9zZWVkOTYzMC5qcGVn',
 			},
 			{
 				name: 'Carolin Rainy',
 				email: 'crainy4@sakura.ne.jp',
 				image:
-					'https://ui-avatars.com/api/?name=Carolin+Rainy&size=150&background=ea580c&color=fff',
+					'https://thispersonnotexist.org/downloadimage/Ac3RhdGljL21hbi9zZWVkNDc4NjcuanBlZw==',
 			},
 			{
 				name: 'Orville Duesbury',
 				email: 'oduesbury5@mit.edu',
 				image:
-					'https://ui-avatars.com/api/?name=Orville+Duesbury&size=150&background=0891b2&color=fff',
+					'https://thispersonnotexist.org/downloadimage/Ac3RhdGljL3dvbWFuL3NlZWQ0MDYyNi5qcGVn',
 			},
 		],
 		[]
