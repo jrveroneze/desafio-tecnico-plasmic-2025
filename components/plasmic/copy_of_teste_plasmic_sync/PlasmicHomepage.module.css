@@ -1,0 +1,44 @@
+.contactPage {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  align-content: flex-start;
+  justify-items: center;
+  overflow: auto;
+  grid-row-gap: 10px;
+  background: var(--token-MOzfXwKQKV4j);
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.contactPage > * {
+  grid-column: 4;
+}
+.pageTitleComponent:global(.__wab_instance) {
+  width: 100%;
+  flex-grow: 1;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  position: sticky;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
+  margin: 0px;
+}
+.contactListComponent:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
+  margin: 0px;
+}

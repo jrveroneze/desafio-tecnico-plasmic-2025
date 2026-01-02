@@ -1,0 +1,131 @@
+.contactListComponente {
+  display: grid;
+  align-content: center;
+  justify-items: stretch;
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+  background: var(--token-MOzfXwKQKV4j);
+  max-height: 94px;
+  min-height: 94px;
+  height: 94px;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.contactListComponente > * {
+  grid-column: 4;
+}
+.contactHorizontalStack {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  justify-self: flex-start;
+  flex-shrink: 0;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 0px;
+  border-width: 1px;
+  border-style: solid;
+}
+.imageContactImage {
+  object-fit: cover;
+  width: 92px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  align-self: auto;
+  flex-grow: 0;
+  height: 100%;
+  flex-shrink: 0;
+  min-height: 0;
+}
+.imageContactImage > picture > img {
+  object-fit: cover;
+}
+.contactVerticalStack {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: auto;
+  flex-grow: 1;
+  min-width: 0;
+  padding: 8px;
+  margin: 8px;
+}
+.nameContactText {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+  transform: skew(0deg, 0deg);
+  flex-shrink: 1;
+  white-space: pre;
+  text-overflow: clip;
+  overflow: hidden;
+  min-width: 0;
+}
+.emailContactText {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  white-space: pre;
+  text-overflow: clip;
+  overflow: hidden;
+  font-size: 1rem;
+  min-width: 0;
+}
+.detailContactModal:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.contactDetailComponent:global(.__wab_instance) {
+  max-width: 100%;
+}
+.titleDetailContactModalText {
+  font-size: 2rem;
+}
+.showDetailContactModalButton:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.closeDetailContactModalButton:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.closeDetailContactModalButtonText {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
