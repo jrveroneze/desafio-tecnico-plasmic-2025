@@ -1,0 +1,26 @@
+.container {
+	--side-gap: 16px;
+	--standard-width: 800px;
+	--wide-width: 1280px;
+	--side-margin: calc(
+		((var(--wide-width) - var(--standard-width)) / 2) - var(--side-gap)
+	);
+
+	display: grid;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	align-content: flex-start;
+	justify-items: center;
+	overflow: auto;
+	grid-row-gap: 10px;
+	background: #ffffff;
+	min-width: 0;
+	padding: 0px;
+	grid-template-columns:
+		var(--side-gap) 1fr minmax(0, var(--side-margin)) min(
+			var(--standard-width),
+			calc(100% - var(--side-gap) - var(--side-gap))
+		)
+		minmax(0, var(--side-margin)) 1fr var(--side-gap);
+}
